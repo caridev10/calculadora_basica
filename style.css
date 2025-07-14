@@ -1,0 +1,54 @@
+/* style.css - Tema Morado y Blanco */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3e5f5; /* Lila muy claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculadora {
+  background: #6a1b9a; /* Morado fuerte */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  width: 300px;
+}
+
+#pantalla {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  text-align: right;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #eb89eb; /* Fondo lila claro */
+  color: #4a148c; /* Texto morado oscuro */
+}
+
+.botones {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ab47bc; /* Morado medio */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #8e24aa; /* Morado más oscuro */
+  transform: scale(1.05);
+}
